@@ -5,8 +5,7 @@
 
 return {
   require 'custom.plugins.filetree',
-  -- require 'custom.plugins.null-ls',
-  require 'custom.plugins.formatter',
+  -- require 'custom.plugins.formatter',
   require 'custom.plugins.ripgrep',
   require 'custom.plugins.copilot',
 }
