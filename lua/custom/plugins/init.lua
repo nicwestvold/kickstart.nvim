@@ -5,7 +5,7 @@
 
 return {
   require 'custom.plugins.filetree',
-  -- require 'custom.plugins.formatter',
+  require 'custom.plugins.formatter',
   require 'custom.plugins.ripgrep',
   require 'custom.plugins.copilot',
   require 'custom.plugins.testing',
