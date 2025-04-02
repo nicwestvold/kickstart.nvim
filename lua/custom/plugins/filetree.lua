@@ -12,7 +12,8 @@ return {
   cmd = 'Neotree',
   keys = {
     { '\\', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
-    { '<leader><Enter>', ':Neotree reveal<CR>', desc = 'NeoTree open', silent = true },
+    -- { '<leader><Enter>', ':Neotree toggle<CR>', desc = 'NeoTree open', silent = true },
+    { '<leader><Enter>', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
     { '<leader>f', ':Neotree toggle reveal_force_cwd<CR>', desc = 'NeoTree toggle with CWD', silent = true },
   },
   opts = {
