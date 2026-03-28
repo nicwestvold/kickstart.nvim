@@ -814,6 +814,7 @@ require('lazy').setup({
     },
   },
 
+  -- Tokyo Night (theme)
   { -- You can easily change to a different colorscheme.
     -- Change the name of the colorscheme plugin below, and then
     -- change the command in the config to whatever the name of that colorscheme is.
@@ -836,6 +837,44 @@ require('lazy').setup({
       vim.cmd.colorscheme 'tokyonight-storm'
     end,
   },
+
+  --- Theme Options (uncomment one block, comment out tokyonight above) ---
+
+  -- Catppuccin Macchiato
+  -- {
+  --   'catppuccin/nvim',
+  --   name = 'catppuccin',
+  --   priority = 1000,
+  --   config = function()
+  --     require('catppuccin').setup {
+  --       flavour = 'macchiato',
+  --       no_italic = true,
+  --     }
+  --     vim.cmd.colorscheme 'catppuccin-macchiato'
+  --   end,
+  -- },
+
+  -- Kanagawa Wave
+  -- {
+  --   'rebelot/kanagawa.nvim',
+  --   priority = 1000,
+  --   config = function()
+  --     require('kanagawa').setup {
+  --       commentStyle = { italic = false },
+  --     }
+  --     vim.cmd.colorscheme 'kanagawa-wave'
+  --   end,
+  -- },
+
+  -- Doom One
+  -- {
+  --   'NTBBloodbath/doom-one.nvim',
+  --   priority = 1000,
+  --   config = function()
+  --     vim.g.doom_one_italic_comments = false
+  --     vim.cmd.colorscheme 'doom-one'
+  --   end,
+  -- },
 
   -- Highlight todo, notes, etc in comments
   {
